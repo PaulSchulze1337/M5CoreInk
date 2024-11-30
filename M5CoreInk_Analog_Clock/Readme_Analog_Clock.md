@@ -33,5 +33,5 @@
 
 
 ## Pictures
-![M5 CoreInk Analog Clock NTP.jpg](img/M5%20CoreInk%20Analog%20Clock%20NTP_250px.jpg)
-![M5 CoreInk Analog Clock NTP Code Example.png](img/M5%20CoreInk%20Analog%20Clock%20NTP%20Code%20Example.png)
+![Analog Clock_250px.jpg](img/Analog%20Clock_250px.jpg)
+![Code Example.png](img/Code%20Example.png)
