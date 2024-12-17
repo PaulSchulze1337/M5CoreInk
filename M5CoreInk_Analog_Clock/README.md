@@ -1,4 +1,9 @@
-# M5 Core Ink - Analog Clock with NTP Sync and Daylight Saving Time (DST) Support
+# M5Stack CoreInk - Analog Clock 
+
+This Sketch implements an analog clock with NTP synchronization and Daylight Saving Time (DST) support.
+The clock is displayed on the M5 CoreInk display.
+
+It needs a WiFi connection to synchronize the clock with an NTP server.
 
 ## Overview
 - Clock is synchronized with NTP server
@@ -15,23 +20,29 @@
 1. Upload the sketch to the M5 CoreInk
 
 
-## Enable USB/Serial Port Terminal
+## Pictures
+![Analog Clock_250px.jpg](img/Analog%20Clock_250px.jpg)
+
+
+## Code Example in UI Flow
+![Code Example.png](img/Code%20Example.png)
+
+
+## Debugging via Serial Monitor
+
+### Enable USB/Serial Port Terminal
 - Install minicom for Linux:Ubuntu
 ``` bash
   sudo apt-get install minicom
 ```
 
-- Connect M5 CoreInk to USB port an run the following command to find the tty
+### Establish Connection
+- Connect M5 CoreInk to a USB port and run the following command to find the tty for your device
 ``` bash
   sudo dmesg | grep tty
 ```
 
-- Run minicom with the following command
+- Run minicom with the following command. Replace /dev/ttyACM0 with your device tty
 ``` bash
   sudo minicom -b 115200 -o -D /dev/ttyACM0
 ```
-
-
-## Pictures
-![Analog Clock_250px.jpg](img/Analog%20Clock_250px.jpg)
-![Code Example.png](img/Code%20Example.png)
